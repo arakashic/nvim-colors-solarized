@@ -135,7 +135,7 @@
 " environment.
 
 " Terminals that support italics
-if (has('nvim') && $NVIM_TUI_ENABLE_TRUE_COLOR)
+if has('nvim')
     let s:nvim_true_color = 1
 else
     let s:nvim_true_color = 0
